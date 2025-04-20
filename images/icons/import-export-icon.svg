@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <path d="M56 16H48V8C48 5.8 46.2 4 44 4H8C5.8 4 4 5.8 4 8V44C4 46.2 5.8 48 8 48H16V56C16 58.2 17.8 60 20 60H56C58.2 60 60 58.2 60 56V20C60 17.8 58.2 16 56 16ZM8 44V8H44V16H20C17.8 16 16 17.8 16 20V44H8ZM56 56H20V20H56V56Z" fill="#0056B3"/>
+  <path d="M48 28H28V48H48V28Z" fill="#0056B3"/>
+  <path d="M24 28H28V32H24V28Z" fill="#0056B3"/>
+  <path d="M24 36H28V40H24V36Z" fill="#0056B3"/>
+  <path d="M24 44H28V48H24V44Z" fill="#0056B3"/>
+</svg>
