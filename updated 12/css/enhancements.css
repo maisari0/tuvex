@@ -1,0 +1,203 @@
+/* Language toggle styles */
+.language-toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.language-toggle a {
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-toggle a.active {
+    background-color: var(--primary-blue);
+    color: var(--white);
+}
+
+.language-toggle a:hover:not(.active) {
+    background-color: var(--light-gray);
+}
+
+.language-toggle span {
+    margin: 0 0.25rem;
+    color: var(--metallic-gray);
+}
+
+/* Footer language toggle */
+.footer-language-toggle {
+    margin-top: 1rem;
+}
+
+.footer-language-toggle a {
+    color: var(--light-blue);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-language-toggle a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-language-toggle a:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Updated hero section with background image */
+.hero-section {
+    background: linear-gradient(rgba(0, 61, 122, 0.8), rgba(0, 86, 179, 0.7)), url('../images/backgrounds/background-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* About section with subtle background */
+.about-section {
+    background-color: var(--light-gray);
+    background-image: url('../images/backgrounds/background-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(244, 245, 247, 0.9);
+    z-index: 1;
+}
+
+.about-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Why Choose Us section with background */
+.why-choose-section {
+    background-color: var(--light-blue);
+    background-image: url('../images/backgrounds/background-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.why-choose-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(230, 242, 255, 0.9);
+    z-index: 1;
+}
+
+.why-choose-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Contact form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--font-medium);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-blue);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
+}
+
+textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--dark-blue);
+}
+
+/* Enhanced logo styles */
+.logo img {
+    height: auto;
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer enhancements */
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.business-id {
+    margin-bottom: 0.5rem;
+    color: var(--light-blue);
+}
+
+/* Service icons enhancements */
+.service-icon {
+    margin-bottom: 1.5rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon img {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon img {
+    transform: translateY(-5px);
+}
